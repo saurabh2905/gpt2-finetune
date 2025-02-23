@@ -1,0 +1,3 @@
+The sky is blue.
+Deep learning is transforming AI.
+GPT models predict the next word based on context.
