@@ -42,9 +42,9 @@ pip install torch transformers datasets
 
 ## **📌 How to Train the Model**
 1️⃣ Place your **text dataset** in a file named `data.txt`.  
-2️⃣ Run the training script:
+2️⃣ Run the fine tuning script:
 ```bash
-python training_script.py
+python fine_tune.py
 ```
 3️⃣ The **fine-tuned model** will be saved in `./gpt2-finetuned/`.  
 
