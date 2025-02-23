@@ -30,7 +30,6 @@ Make sure you have **Python 3.8+** installed, then create a virtual environment:
 ```bash
 python -m venv fine-tune-env
 source fine-tune-env/bin/activate  # Mac/Linux
-fine-tune-env\Scripts\activate     # Windows
 ```
 
 ### **Step 2: Install Dependencies**
