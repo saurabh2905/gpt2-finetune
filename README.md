@@ -72,7 +72,7 @@ model_path = "./gpt2-finetuned"
 model = GPT2LMHeadModel.from_pretrained(model_path)
 tokenizer = GPT2Tokenizer.from_pretrained(model_path)
 
-prompt = "The future of AI is"
+prompt = "The sky is"
 inputs = tokenizer(prompt, return_tensors="pt")
 
 output = model.generate(**inputs, max_length=50)
